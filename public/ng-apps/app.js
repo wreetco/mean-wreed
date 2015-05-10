@@ -5,7 +5,7 @@ angular.module("meanWreed", ['ngRoute', 'AppCtrl'])
 	$routeProvider
 	.when('/', {
 		// #/test
-		templateUrl: '/js/ng-js/views/index.html',
+		templateUrl: '/ng-apps/views/index.html',
 		controller: 'AppCtrl'
 	})
 	// end /
