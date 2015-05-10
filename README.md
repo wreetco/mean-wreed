@@ -5,4 +5,5 @@ wreetco meanjs custom seed
 After installing, simply install npm and bower dependencies and you are ready to go. 
 
 `npm install`
+
 `bower install`
