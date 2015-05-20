@@ -1,35 +1,28 @@
 // app.js
 
-// modules
-var express = require('express');
+// app includes
+var express = require("express");
 var app = express();
-var methodOverride = require('method-override');
+var methodOverride = require("method-override");
 
-// configuration 
-    
-// config files
-var db = require('./config/db');
+// database setup
+var database = "test";
+var db = require("./config/db")(database);
 
-// set our port
-var port = process.env.PORT || 4321; 
-
-// connect to our mongoDB database 
-// (uncomment after you enter in your own credentials in config/db.js)
-// mongoose.connect(db.url); 
-
+// set the port to listen on
+var port = 8787;
 
 // set the static files location /public/img will be /img for users
-app.use(express.static(__dirname + '/public')); 
+app.use(express.static(__dirname + "/public")); 
 
 // routes
-require('./config/routes')(app); // configure our routes
+require("./route_handlers")(app); // include route handlers
 
-// start app 
-// startup our app at http://localhost:4321
+// start our app at http://localhost:4321
 app.listen(port);               
 
-// shoutout to the user                     
-console.log('[+] App can be found on port ' + port);
+// let them know where to find the app       
+console.log("[+] App can be found on port localhost:" + port);
 
 // expose app           
 exports = module.exports = app;  

@@ -1,4 +1,4 @@
-##mean-wreed 0.1.1
+##mean-wreed 0.1.2
 wreetco meanjs custom seed
 
 ###usage
