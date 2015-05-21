@@ -1,4 +1,4 @@
-##mean-wreed 0.2.0
+##mean-wreed 0.2.1
 wreetco MEAN seed with Foundation by Zurb
 
 ##about
