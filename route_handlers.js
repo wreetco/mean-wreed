@@ -1,13 +1,9 @@
-var ExampleModel = require('./app/models/example');
+var examples = require('./app/controllers/example.js');
 
 module.exports = function(app) {
 // example model route
 app.get('/example/show', function(req, res) {
-	var e = ExampleModel({
-		name: "Example Model", 
-		age: 33
-	});
-	res.send(e);
+	examples.show(req, res);
 });
 
 // routes to handle angular requests
