@@ -1,5 +1,8 @@
 angular.module("meanWreed", ['ngRoute', 'AppCtrl'])
-
+.run(function($rootScope){
+	console.log('run statement!');	
+	$rootScope.$apply($(document).foundation());
+})
 // configuration
 .config(['$routeProvider', function($routeProvider) {
 	$routeProvider

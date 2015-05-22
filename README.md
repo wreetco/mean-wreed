@@ -1,8 +1,12 @@
-##mean-wreed 0.2.1
+##mean-wreed 0.2.2
 wreetco MEAN seed with Foundation by Zurb
 
 ##about
-wreetco's seed for MEAN apps. The MEAN wreed is a barebones starting point for simple projects, designed to be served with Passenger. It includes support for mongoose and a demo model, as well as a demo controller. It will automatically bootstrap an angular application at /. We're big fans of Zurb's Foundation framework, and we've included a copy in the default Angular app(/public/index.html). 
+wreetco's seed for MEAN apps. The MEAN wreed is a barebones starting point for simple projects, designed 
+to be served with Passenger. It includes support for mongoose and a demo model, as well as a demo 
+controller. It will automatically bootstrap an angular application at /. We're big fans of Zurb's 
+Foundation framework, and we've already bootstrapped the default Angular app(/public/index.html) to 
+include the relevant Foundation files from the /public/bower_libs dir. 
 
 ##installing
 After downloading, simply install npm and bower dependencies and you are ready to go. 

@@ -4,11 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
-		<!-- angular stuff -->
+		<!-- foundation -->
+    <link rel="stylesheet" href="bower_libs/foundation/css/foundation.css" />
+    <script src="bower_libs/foundation/js/vendor/modernizr.js"></script>
+		<!-- angular base -->
 		<script src="bower_libs/angular/angular.min.js"></script>
     <script src="bower_libs/angular-route/angular-route.min.js"></script>
+		<!-- angular apps, controllers, other modules -->
 		<script src="ng-apps/main/app.js"></script>
 		<script src="ng-apps/main/controllers/app_ctrl.js"></script>
 		<!-- end angular stuff -->
@@ -18,10 +20,12 @@
 			<!-- angular yield -->
 		</div>
     <!-- end it all -->
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
+    <script src="bower_libs/jquery/dist/jquery.min.js"></script>
+    <script src="bower_libs/foundation/js/foundation.min.js"></script>
+    <!-- moved to run statement in angular app's app.js
+		<script>
       $(document).foundation();
     </script>
+		-->
   </body>
 </html>

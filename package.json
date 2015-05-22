@@ -1,6 +1,6 @@
 {
-	"name": "mean-wreed",
-	"main": "server.js",
+	"name": "MEAN Wreed",
+	"main": "app.js",
 	"dependencies": {
 		"express" : "~4.12.3",
 		"mongoose" : "~4.0.2",
