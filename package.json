@@ -1,5 +1,5 @@
 {
-	"name": "MEAN Wreed",
+	"name": "MEAN-Wreed",
 	"main": "app.js",
 	"dependencies": {
 		"express" : "~4.12.3",
