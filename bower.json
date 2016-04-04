@@ -1,9 +1,8 @@
 {
   "name": "MEAN Wreed",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "dependencies": {
     "angular": "latest",
     "angular-route": "latest",
-    "foundation": "~5.5.2"
   }
 }
