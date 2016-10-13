@@ -2,8 +2,13 @@
 	"name": "MEAN-Wreed",
 	"main": "app.js",
 	"dependencies": {
-		"express" : "~4.13.4",
-		"mongoose" : "~4.4.11",
-		"method-override" : "~2.3.5"        
-	}
+		"express" : "~4.14.0",
+		"mongoose" : "~4.6.3",
+		"method-override" : "~2.3.6"        
+	},
+	"repository" : { 
+		"type" : "git",
+		"url" : "https://github.com/wreetco/mean-wreed.git"
+  	},
+	"license" : "MIT"
 }

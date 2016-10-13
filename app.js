@@ -1,7 +1,7 @@
 // app.js
 var app_info = {
 	name: "MEAN Wreed",
-	version: "0.3.0"
+	version: "0.3.1"
 };
 
 // app includes
