@@ -12,7 +12,7 @@ After downloading, simply install npm and bower dependencies and you are ready t
 `npm install && bower install`
 
 ##serving
-You can serve the app up using Node by simply running the app.js file. 
+You can serve the app up using Node by simply running the app.js file.  The front end will be served up on port 8787.
 
 `node app`
 
