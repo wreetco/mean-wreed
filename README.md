@@ -1,4 +1,4 @@
-##mean-wreed 0.3.0
+##mean-wreed 0.3.1
 wreetco MEAN seed
 
 ##about
